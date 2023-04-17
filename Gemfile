@@ -51,6 +51,9 @@ gem "bootsnap", require: false
 # CHR:Add devise per instructions
 gem 'devise'
 
+# CHR:Add responders to make devise work with hotwire
+gem 'responders'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
